@@ -1,0 +1,91 @@
+
+@import url('../fonts/stylesheet.css');
+@import url('./bootstrap.min.css');
+@import url('./loading.css');
+@import url('./header.css');
+@import url('./exp.css');
+@import url('./footer.css');
+*, html, body {
+    font-family: 'IgraSans';
+    font-size: var(--mainSizeFont);
+    line-height: normal;
+}
+a, a:hover {
+    text-decoration: unset;
+    color: white;
+}
+html, body {
+    overflow-x: hidden;
+}
+body {
+    background: var(--mainBgColor);
+    color: white;
+    overflow: hidden;
+    height: fit-content;
+}
+.my-container {
+    padding: 0 var(--mainPadding);
+}
+.title {
+    font-size: var(--mainTitleSize);
+    margin: 0;
+    line-height: 1;
+}
+.miniTitle {
+    font-size: var(--mainMiniTitleSize);
+    margin: 0;
+    line-height: 1;
+}
+:root {
+    --sizeLogo: 220px;
+    --mainPadding: 65px;
+    --mainSizeFont: 30px;
+    --mainMiniTitleSize: 48px;
+    --mainTitleSize: 90px;
+    --mainBgColor: #0E0D0D;
+}
+@media(max-width: 1630px) {
+    :root {
+        --sizeLogo: 170px;
+        --mainPadding: 45px;
+        --mainSizeFont: 21px;
+        --mainMiniTitleSize: 35px;
+        --mainTitleSize: 70px;
+    }
+}
+@media(max-width: 1100px) {
+    :root {
+        --sizeLogo: 180px;
+        --mainPadding: 25px;
+        --mainSizeFont: 24px;
+        --mainMiniTitleSize: 38px;
+        --mainTitleSize: 76px;
+    }
+}
+@media(max-width: 615px) {
+    :root {
+        --sizeLogo: 200px;
+        --mainPadding: 15px;
+        --mainSizeFont: 20px;
+        --mainMiniTitleSize: 32px;
+        --mainTitleSize: 68px;
+    }
+}
+@media(max-width: 540px) {
+    :root {
+        --sizeLogo: 200px;
+        --mainPadding: 15px;
+        --mainSizeFont: 18px;
+        --mainMiniTitleSize: 24px;
+        --mainTitleSize: 44px;
+    }
+}
+@media(max-width: 370px) {
+    :root {
+        --sizeLogo: 200px;
+        --mainPadding: 15px;
+        --mainSizeFont: 16px;
+        --mainMiniTitleSize: 22px;
+        --mainTitleSize: 36px;
+    }
+}

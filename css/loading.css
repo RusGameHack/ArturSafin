@@ -1,0 +1,45 @@
+.loadingBlock {
+    position: fixed;
+    z-index: 4;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    transition: .4s all ease;
+    background: var(--mainBgColor);
+}
+.loadingBlock.notVisible {
+    opacity: 0;
+}
+.loadingBlock.disable {
+    display: none;
+}
+.firstAnimImage {
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    transition: .3s all linear;
+}
+.firstAnimImage.finished {
+    left: 70%;
+    top: 70%;
+}
+.secondAnimImage {
+    z-index: 4;
+    position: absolute;
+    right: -60%;
+    bottom: 0;
+    transform: rotate(250deg);
+    height: 85%;
+    transition: .3s all linear;
+}
+.secondAnimImage.finished {
+    z-index: 4;
+    position: absolute;
+    right: -15%;
+    bottom: 0;
+    transform: rotate(160deg);
+    height: 85%;
+}
