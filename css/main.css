@@ -4,6 +4,7 @@
 @import url('./loading.css');
 @import url('./header.css');
 @import url('./exp.css');
+@import url('./works.css');
 @import url('./footer.css');
 *, html, body {
     font-family: 'IgraSans';
@@ -35,6 +36,18 @@ body {
     font-size: var(--mainMiniTitleSize);
     margin: 0;
     line-height: 1;
+}
+.horizontal__line {
+    height: 3px;
+    width: 50%;
+    margin: 0 25px;
+    background: white;
+}
+@media (max-width: 1800px) {
+    .horizontal__line {
+        width: 45%;
+        margin: 0 20px;
+    }
 }
 :root {
     --sizeLogo: 220px;

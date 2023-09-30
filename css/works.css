@@ -1,0 +1,52 @@
+.works {
+    padding: 192px 0 100px;
+}
+.works__top {
+    margin-bottom: 40px;
+}
+.works-img {
+    height: 630px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: .3s all;
+}
+.works-prosafe {
+    background: url('../img/works/prosafe.png') center/cover no-repeat;
+}
+.works-prosafe:hover {
+    background: url('../img/works/prosafeActive.png') center/cover no-repeat;
+}
+.works-dSad {
+    background: url('../img/works/dSad.png') center/cover no-repeat;
+}
+.works-dSad:hover {
+    background: url('../img/works/dSadActive.png') center/cover no-repeat;
+}
+.works-bugakos {
+    background: url('../img/works/bugakos.png') center/cover no-repeat;
+}
+.works-wanngo {
+    background: url('../img/works/wanngo.png') center/cover no-repeat;
+}
+.works-img-50 {
+    width: 49%;
+    height: 950px;
+}
+@media(max-width: 1800px) {
+    .works-img {
+        height: 580px;
+    }
+    .works-img-50 {
+        width: 48%;
+        height: 690px;
+    }
+}
+@media(max-width: 1600px) {
+    .works-img {
+        height: 450px;
+    }
+    .works-img-50 {
+        height: 650px;
+    }
+}
