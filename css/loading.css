@@ -32,7 +32,8 @@
     right: -60%;
     bottom: 0;
     transform: rotate(250deg);
-    height: 85%;
+    max-height: 85%;
+    max-width: 65%;
     transition: .3s all linear;
 }
 .secondAnimImage.finished {
@@ -41,5 +42,4 @@
     right: -15%;
     bottom: 0;
     transform: rotate(160deg);
-    height: 85%;
 }

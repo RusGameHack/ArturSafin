@@ -95,7 +95,16 @@ header a {
         width: 50%;
     }
 }
+@media (max-width: 1250px) {
+    .header-container {
+        width: 58%;
+    }
+    .firstAnimImage, .secondAnimImage {
+        display: none;
+    }
+}
 @media(max-width:1100px) {
+    
     header {
         padding: 15px;
     }
@@ -156,6 +165,22 @@ header a {
         justify-content: start;
         padding-top: 10vh!important;
         height: 88vh;
+    }
+    .secondAnimImage, .firstAnimImage {
+        display: flex;
+    }
+    .secondAnimImage {
+        max-width: 65%;
+        max-height: 40%;
+    }
+    .firstAnimImage {
+        max-width: 45%;
+        max-height: 62%;
+        width: unset;
+    }
+    .firstAnimImage.finished {
+        top: 90%;
+        left: 50%;
     }
 }
 @media(max-width:490px) {

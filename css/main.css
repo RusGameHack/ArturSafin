@@ -49,6 +49,16 @@ body {
         margin: 0 20px;
     }
 }
+@media(max-width: 1250px) {
+    .horizontal__line {
+        width: 30%;
+    }
+}
+@media(max-width: 1020px) {
+    .horizontal__line {
+        width: 25%;
+    }
+}
 :root {
     --sizeLogo: 220px;
     --mainPadding: 65px;

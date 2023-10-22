@@ -4,8 +4,13 @@
 .exp__title {
 
 }
-.exp__miniTitle {
-    margin-top: 30px;
+.miniTitle.exp__miniTitle {
+    margin-top: 16px;
+    color: #BCBCBC;
+    font-family: IgraSans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .exp__block {
     margin-top: 85px;
@@ -15,8 +20,11 @@
 .exp__jobs {
     width: 36%;
 }
-.exp__jobs_job a{
-    text-decoration: underline;
+.exp__jobs:nth-child(2) {
+    width: 16%;
+}
+.exp__jobs_job a, .exp__jobs_job-where, .exp__jobs_job-company{
+    text-transform: uppercase;
 }
 .exp__jobs_job {
     margin-bottom: 109px;
@@ -40,21 +48,17 @@
 .exp__achivments-text {
     margin-top: 32px;
 }
-
-
-.exp-photos-block {
-    position: relative;
+.exp__jobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.exp-photos-block img:first-child {
-    position: relative;
-    left: -100%;
-    z-index: 2;
+
+.exp-photos {
+    width: 30.589%;
 }
-.exp-photos-block img:last-child {
-    position: absolute;
-    left: -51%;
-    bottom: -88%;
-    z-index: 3;
+.exp-photos-block, .exp-photos-block img {
+    width: 100%;
 }
 
 @media(max-width:1650px) {
