@@ -5,6 +5,7 @@
 @import url('./header.css');
 @import url('./exp.css');
 @import url('./works.css');
+@import url('./calc.css');
 @import url('./footer.css');
 *, html, body {
     font-family: 'IgraSans';
