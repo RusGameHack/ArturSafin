@@ -63,9 +63,9 @@ body {
 :root {
     --sizeLogo: 220px;
     --mainPadding: 65px;
-    --mainSizeFont: 30px;
-    --mainMiniTitleSize: 48px;
-    --mainTitleSize: 90px;
+    --mainSizeFont: 24px;
+    --mainMiniTitleSize: 43px;
+    --mainTitleSize: 85px;
     --mainBgColor: #0E0D0D;
 }
 @media(max-width: 1630px) {
