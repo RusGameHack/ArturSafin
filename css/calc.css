@@ -43,7 +43,7 @@
     margin-top: 30px;
 }
 .calc__block-buttons_button-block {
-    background: black;
+    background: var(--mainBgColor);
     width: var(--buttonWidth);
     height: var(--buttonHeight);
     border: 3px solid white;
@@ -80,7 +80,7 @@
 .calc__result__button {
     border-radius: 26px;
     border: 2px solid #FFF;
-    background: black;
+    background: var(--mainBgColor);
     color: white;
     padding: 21px 0;
     width: 100%;
