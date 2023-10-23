@@ -1,6 +1,7 @@
 header {
     padding: 34px 0 0;
     height: 100svh;
+    position: relative;
 }
 .nav-container {
     display: flex;

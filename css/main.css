@@ -97,6 +97,9 @@ body {
     }
 }
 @media(max-width: 540px) {
+    html, body {
+        overflow-x: hidden;
+    }
     :root {
         --sizeLogo: 200px;
         --mainPadding: 15px;
