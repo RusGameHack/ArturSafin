@@ -142,6 +142,11 @@ header a {
         width: 100%;
     }
 }
+@media(max-width: 1024px) {
+    header a {
+        height: auto;
+    }
+}
 @media(max-width:768px) {
     .header-container {
         width: 100%;

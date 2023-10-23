@@ -85,6 +85,12 @@
     padding: 21px 0;
     width: 100%;
     margin-top: 44px;
+    transition: .3s all;
+    cursor: pointer;
+}
+.calc__result__button:hover {
+    background: white;
+    color: var(--mainBgColor);
 }
 @media(max-width: 1800px) {
     :root {
@@ -99,5 +105,62 @@
     }
     .calc__result__title, .calc__result__title-size {
         font-size: 72px;
+    }
+}
+@media (max-width: 1440px){
+    .calc__result__title, .calc__result__title-size {
+        font-size: 64px;
+    }
+}
+@media(max-width: 1024px) {
+    :root {
+        --buttonHeight: 25px;
+        --buttonWidth: 45px;
+    }
+    .calc__result {
+        padding: 3vh 2vw;
+    }
+    .calc__bigBlock {
+        margin-top: 4vh;
+    }
+    .calc__result__title, .calc__result__title-size {
+        font-size: 58px;
+    }
+}
+@media(max-width: 768px) {
+    :root {
+        --buttonHeight: 20px;
+        --buttonWidth: 36px;
+    }
+    .calc__bigBlock {
+        flex-wrap: wrap;
+    }
+    .calc__text {
+        margin-top: 9.26vh;
+        width: 292px;
+    }
+    .calc__block-buttons {
+        margin-top: 3vh;
+    }
+    .calc__container {
+        width: 100%;
+    }
+    .calc .calc__block {
+        margin-top: 2.5vh;
+    }
+    .calc__result {
+        margin-left: 0;
+    }
+}
+@media(max-width: 540px) {
+    .calc__block-buttons_button-title, .calc__text {
+        margin-top: var(--marginAll);
+    }
+    .calc__result__button {
+        padding: 13px 0;
+        margin-top: 25px;
+    }
+    .calc {
+        padding: var(--paddingBigAll) 0;
     }
 }

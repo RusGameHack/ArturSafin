@@ -67,6 +67,7 @@ body {
     --mainMiniTitleSize: 43px;
     --mainTitleSize: 85px;
     --mainBgColor: #0E0D0D;
+    --marginAll: 30px;
 }
 @media(max-width: 1630px) {
     :root {
@@ -101,7 +102,18 @@ body {
         --mainPadding: 15px;
         --mainSizeFont: 18px;
         --mainMiniTitleSize: 24px;
-        --mainTitleSize: 44px;
+        --mainTitleSize: 32px;
+        --marginAll: 15px;
+        --paddingBigAll: 35px;
+    }
+}
+@media(max-width: 440px) {
+    :root {
+        --sizeLogo: 200px;
+        --mainPadding: 15px;
+        --mainSizeFont: 16px;
+        --mainMiniTitleSize: 22px;
+        --mainTitleSize: 30px;
     }
 }
 @media(max-width: 370px) {
@@ -109,7 +121,7 @@ body {
         --sizeLogo: 200px;
         --mainPadding: 15px;
         --mainSizeFont: 16px;
-        --mainMiniTitleSize: 22px;
-        --mainTitleSize: 36px;
+        --mainMiniTitleSize: 20px;
+        --mainTitleSize: 24px;
     }
 }

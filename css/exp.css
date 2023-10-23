@@ -131,11 +131,11 @@
 }
 @media (max-width: 768px) {
     .exp {
-        padding-bottom: 45px;
+        padding-bottom: 60px;
     }
 }
 @media (max-width: 540px) {
     .exp {
-        padding-bottom: 30px;
+        padding: var(--paddingBigAll) 0;
     }
 }

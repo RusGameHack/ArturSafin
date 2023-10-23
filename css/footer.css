@@ -24,6 +24,26 @@ footer video {
     color: black;
     text-decoration: underline;
 }
+.footer-links-flex-mainBlock {
+    display: flex;
+    justify-content: space-between;
+}
 .footer-link {
     margin-right: 15px;
+}
+
+@media(max-width: 768px) {
+    .footer-content {
+        padding: var(--paddingBigAll) 0;
+    }
+    .footer-links-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-link {
+        margin-right: 10px;
+    }
+    .footer-links-flex-mainBlock {
+        flex-direction: column;
+    }
 }
