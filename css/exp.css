@@ -84,6 +84,7 @@
     .exp__block {
         margin-top: 50px;
         width: 100%;
+        flex-wrap: wrap;
     }
     .exp__jobs {
         width: 100%;
@@ -108,5 +109,33 @@
     }
     .exp__block-down .exp__achivments:last-child {
         display: none;
+    }
+    .exp__block {
+        margin-top: 25px;
+    }
+    .exp__jobs_job {
+        margin-bottom: 30px;
+    }
+    .exp__jobs_job-text {
+        margin-top: 10px;
+    }
+    .exp__jobs:nth-child(2) {
+        width: 100%;
+    }
+    .exp-photos, .exp-photos-block, .exp-photos-block, .exp-photos-block img {
+        width: 100%;
+    }
+    .exp-photos-block img {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .exp {
+        padding-bottom: 45px;
+    }
+}
+@media (max-width: 540px) {
+    .exp {
+        padding-bottom: 30px;
     }
 }

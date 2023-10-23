@@ -50,3 +50,31 @@
         height: 650px;
     }
 }
+@media(max-width: 768px) {
+    .works {
+        padding: 45px 0;
+    }
+    .works-img {
+        height: 220px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 540px) {
+    .works {
+        padding: 30px 0;
+    }
+    .works__top {
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    .works__top .horizontal__line {
+        display: none;
+    }
+    .works__top .title {
+        margin-bottom: 10px;
+    }
+    .works-img {
+        height: 160px;
+        margin-bottom: 10px;
+    }
+}

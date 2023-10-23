@@ -172,6 +172,7 @@ header a {
     .secondAnimImage {
         max-width: 65%;
         max-height: 40%;
+        right: -80%;
     }
     .firstAnimImage {
         max-width: 45%;
