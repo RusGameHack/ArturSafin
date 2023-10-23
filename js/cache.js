@@ -1,1 +1,1 @@
-tempImg = new Image();tempImg2 = new Image();tempImg.src="../img/works/prosafeActive.png";tempImg2.src="../img/works/dSadActive.png";
+tempImg = new Image();tempImg2 = new Image();tempImg.src="./img/works/prosafeActive.png";tempImg2.src="./img/works/dSadActive.png";
