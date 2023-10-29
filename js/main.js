@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 finishedFirst(deg);
             }
         }, 100);
-        
         console.log('Загрузились');
     }, 2000);
 });
@@ -31,6 +30,7 @@ function startSecond() {
             document.querySelector('.loadingBlock').classList.add('notVisible');         
             setTimeout(() => {
                 document.querySelector('.loadingBlock').classList.add('disable');            
+                document.querySelector('body').classList.add('active');            
             }, 300); 
         }, 100);   
     }, 300);

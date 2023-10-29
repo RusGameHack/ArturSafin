@@ -18,6 +18,7 @@ a, a:hover {
 }
 html, body {
     overflow-x: hidden;
+    max-height: 100dvh;
 }
 body {
     background: var(--mainBgColor);
@@ -25,8 +26,13 @@ body {
     overflow: hidden;
     height: fit-content;
 }
+body.active {
+    max-height: 1000000vh;
+}
 .my-container {
     padding: 0 var(--mainPadding);
+    margin: 0 auto;
+    max-width: 1920px;
 }
 .title {
     font-size: var(--mainTitleSize);
@@ -67,7 +73,9 @@ body {
     --mainMiniTitleSize: 43px;
     --mainTitleSize: 85px;
     --mainBgColor: #0E0D0D;
+    --insertMainBgColor: #FFFFFF;
     --marginAll: 30px;
+    --hoverBg: rgb(155, 155, 155);
 }
 @media(max-width: 1630px) {
     :root {

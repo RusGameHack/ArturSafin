@@ -1,5 +1,6 @@
 .works {
     padding: 192px 0 100px;
+    position: relative;
 }
 .works__top {
     margin-bottom: 40px;
