@@ -19,7 +19,19 @@ calcBlocks.forEach((calcBLock, mainIndex) => {
 });
 
 document.addEventListener("DOMContentLoaded", ()=>{
-    let calcBlockMin = document.querySelector('.calc__bigBlock .calc__block');
-    calcBlockMin.style.minWidth = `${calcBlockMin.getBoundingClientRect().width}px`;
-    calcBlockMin.style.maxWidth = `${calcBlockMin.getBoundingClientRect().width}px`;
+    sizeCalc();
 });
+window.addEventListener("resize", ()=>{
+    sizeCalc();
+});
+function sizeCalc() {
+    const calcBlockMin = document.querySelector('.calc__bigBlock .calc__block'),
+        size = `${calcBlockMin.getBoundingClientRect().width}px`;
+
+    calcBlockMin.style.minWidth = '';
+    calcBlockMin.style.maxWidth = '';
+    setTimeout(() => {
+        calcBlockMin.style.minWidth = size;
+        calcBlockMin.style.maxWidth = size;
+    }, 10);
+}

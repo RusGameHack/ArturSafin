@@ -183,4 +183,7 @@
     .calc {
         padding: var(--paddingBigAll) 0;
     }
+    .calc-parallax, .calc-parallax2 {
+        display: none;
+    }
 }
