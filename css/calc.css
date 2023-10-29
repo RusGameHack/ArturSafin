@@ -104,11 +104,13 @@
     position: absolute;
     bottom: calc(-1 * var(--scrollTop) / -5);
     right: 0;
+    width: 20.886%;
 }
 .calc-parallax2 {
     position: absolute;
     top: calc(-1 * var(--scrollTop) / -8);
     right: 0;
+    width: 22.6565%;
 }
 @media(max-width: 1800px) {
     :root {
