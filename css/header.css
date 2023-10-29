@@ -60,7 +60,7 @@ header a {
 
 
 
-.header-container.my-container {
+.my-container.header-container {
     margin: 0;
     margin-top: 10.417%;
     width: 47%;
@@ -87,18 +87,18 @@ header a {
     color: black;
 }
 @media(max-width: 1510px) {
-    .header-container {
+    .my-container.header-container {
         margin-top: 7%;
         width: 54%;
     }
 }
 @media(max-width:1440px) {
-    .header-container {
+    .my-container.header-container {
         width: 50%;
     }
 }
 @media (max-width: 1250px) {
-    .header-container {
+    .my-container.header-container {
         width: 58%;
     }
     .firstAnimImage, .secondAnimImage {
@@ -110,7 +110,7 @@ header a {
     header {
         padding: 15px;
     }
-    .header-container {
+    .my-container.header-container {
         width: 81%;
         margin-top: 13vh;
     }
@@ -150,7 +150,7 @@ header a {
     }
 }
 @media(max-width:768px) {
-    .header-container {
+    .my-container.header-container {
         width: 100%;
         margin-top: 8vh;
     }
@@ -163,10 +163,10 @@ header a {
     }
 }
 @media(max-width:540px) {
-    .header-container {
+    .my-container.header-container {
         margin-top: 0;
     }
-    .header-container {
+    .my-container.header-container {
         display: flex;
         flex-direction: column;
         justify-content: start;
