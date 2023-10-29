@@ -25,13 +25,15 @@ window.addEventListener("resize", ()=>{
     sizeCalc();
 });
 function sizeCalc() {
-    const calcBlockMin = document.querySelector('.calc__bigBlock .calc__block'),
-        size = `${calcBlockMin.getBoundingClientRect().width}px`;
-
+    const calcBlockMin = document.querySelector('.calc__bigBlock .calc__block')
     calcBlockMin.style.minWidth = '';
     calcBlockMin.style.maxWidth = '';
-    setTimeout(() => {
-        calcBlockMin.style.minWidth = size;
-        calcBlockMin.style.maxWidth = size;
-    }, 10);
+    if(window.innerWidth > 768) {
+        const size = `${calcBlockMin.getBoundingClientRect().width}px`;
+        console.log(size);
+        setTimeout(() => {
+            calcBlockMin.style.minWidth = `${calcBlockMin.getBoundingClientRect().width}px`;
+            calcBlockMin.style.maxWidth = `${calcBlockMin.getBoundingClientRect().width}px`;
+        }, 10);
+    }
 }

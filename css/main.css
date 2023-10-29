@@ -49,6 +49,10 @@ body.active {
     width: 50%;
     margin: 0 25px;
     background: white;
+    transition: .3s all ease-in-out;
+}
+.works__top:hover .horizontal__line {
+    width: 10%;
 }
 @media (max-width: 1800px) {
     .horizontal__line {

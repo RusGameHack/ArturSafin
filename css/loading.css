@@ -31,7 +31,7 @@
 .secondAnimImage {
     z-index: 4;
     position: absolute;
-    right: -60%;
+    right: -65%;
     bottom: 0;
     transform: rotate(250deg);
     max-height: 85%;

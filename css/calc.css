@@ -171,6 +171,9 @@
     .calc__result {
         margin-left: 0;
     }
+    .calc-parallax, .calc-parallax2 {
+        display: none;
+    }
 }
 @media(max-width: 540px) {
     .calc__block-buttons_button-title, .calc__text {
@@ -183,7 +186,19 @@
     .calc {
         padding: var(--paddingBigAll) 0;
     }
-    .calc-parallax, .calc-parallax2 {
-        display: none;
+}
+@media(max-width: 400px) {
+    .calc__block-buttons_button-title, .calc__text {
+        font-size: 14px;
+    }
+}
+@media(max-width: 330px) {
+    .calc__block-buttons_button-title, .calc__text {
+        font-size: 13px;
+    }
+}
+@media(max-width: 310px) {
+    .calc__block-buttons_button-title, .calc__text {
+        font-size: 12px;
     }
 }

@@ -31,6 +31,7 @@ header a {
     display: flex;
     align-items: flex-end;
     height: 40px;
+    cursor: pointer;
 }
 
 
@@ -81,6 +82,7 @@ header a {
     max-width: 773px;
     width: 100%;
     transition: .3s all;
+    cursor: pointer;
 }
 .header__phone:hover {
     background: white;
