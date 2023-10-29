@@ -43,7 +43,7 @@ header a {
 }
 .line {
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
     background: white;
